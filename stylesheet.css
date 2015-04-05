@@ -1,0 +1,396 @@
+* {margin:0; padding:0;}
+
+body {
+	background: #5E5F45;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+	color: #4D4C2F;
+	margin: 0px;
+	padding: 0px;
+}
+
+#page {
+	margin:  0 auto;
+	width: 980px;
+/*	border: 2px solid #7F7F79;*/
+}
+
+#header {
+	width: 980px;
+	height: 398px;
+	background: url('/images/template/bkg_header.jpg') no-repeat;
+	border-bottom: 2px solid #ffffff;
+}
+
+#menu1 {
+	display: block;
+	width: 200px;
+	height: 74px;
+	padding-top: 55px;
+	padding-left: 780px;
+}
+
+#menu1 a {
+	color: #74755E;
+	text-decoration: underline;
+}
+
+#menu2 {
+	width: 620px;
+	height: 55px;
+	margin-left: 72px;
+
+}
+
+#buttons {
+	width: 980px;
+	height: 53px;
+	background: url('/images/template/bkg_buttons.jpg') no-repeat;
+}
+
+#prayer_request {
+	padding-left: 72px;
+	padding-right: 72px;
+}
+
+#main_body {
+	width: 980px;
+	background: url('/images/template/bkg_main_body.jpg') repeat-y;
+}
+
+#content {
+	width: 776px;
+	margin: 0px 102px 0px 102px;
+	padding: 20px 0px 15px 0px;
+}
+
+#content_home {
+	width: 816px;
+	margin: 0px 82px 0px 82px;
+	padding: 20px 0px 15px 0px;
+}
+
+#column_left {
+	float: left;
+	width: 250px;
+}
+
+#column_right {
+	float: right;
+	width: 543px;
+}
+
+#ministry_partnership {
+	width: 543px;
+	height: 191px;
+	background: url('/images/template/bkg_ministry_partnership.jpg') no-repeat;
+}
+
+#ministry_partnership2 {
+	padding: 35px 315px 0px 10px;
+}
+
+#content_home2 {
+	margin-top: 10px;
+	width: 543px;
+}
+
+#content_home h1 {
+	color: #ffffff;
+	background: #BB451F;
+	padding: 5px 0px 5px 15px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+#church_news {
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+#church_news h1 {
+	color: #ffffff;
+	background: #71715C;
+	padding: 5px 0px 5px 15px;
+	font-weight: normal;
+}
+
+#church_news p {
+	text-align: left;
+	margin: 10px 5px 0px 5px;
+	padding: 0px;
+}	
+
+#pastors_pen {
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+#pastors_pen h1 {
+	color: #ffffff;
+	background: #71715C;
+	padding: 5px 0px 5px 15px;
+	font-weight: normal;
+}
+
+#pastors_pen p {
+	text-align: left;
+	margin: 10px 5px 0px 5px;
+	padding: 0px;
+}	
+
+#footer {
+	width: 980px;
+	border-top: 2px solid #ffffff;
+	background: url('/images/template/bkg_footer.jpg') repeat-y;
+}
+
+#footer_1 {
+	width: 836px;
+	margin: 0px 72px 20px 72px;
+	color: #DFDFDA;
+}
+
+#footer_1_a {
+	display: inline;
+	float: left;
+	width: 250px;
+/*	background: #000000;*/
+}
+
+#footer_1 h1 {
+	font-size: 18px;
+	color: #DFDFDA;
+	margin: 20px 25px 0px 25px;
+}
+
+#footer_1 p {
+	color: #DFDFDA;
+	text-align: left;
+	margin: 0px 0px 0px 10px;
+}
+
+#footer_1 a {
+	color: #DFDFDA;
+	font-weight: bold;
+}
+
+#footer_1 ul {
+	margin-left: 30px;
+	list-style-type: square;
+}
+
+#footer_1_b {
+	display: inline;
+	float: left;
+	width: 260px;
+/*	background: #ff0000;*/
+}
+
+#footer_1_c {
+	display: inline;
+	float: left;
+	width: 326px;
+/*	background: #0000FF;*/
+}
+
+
+#footer_2 {
+	width: 836px;
+	height: 50px;
+	margin: 0px 72px 0px 72px;
+	color: #7F7F79;
+	background: #000000;
+	text-align: center;
+	padding-top: 10px;
+	line-height: 150%;
+}
+
+p {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+	color: #4D4C2F;
+	line-height: 125%;
+	padding-bottom: 30px;
+	text-align: justify;
+}
+
+.scripture {
+	padding: 0px 30px 15px 30px;
+	font-style: italic;
+}
+
+a {
+	color: #4184C0;
+	font-weight: bold;
+	text-decoration: none;	
+}
+
+a:hover {
+	color: #CD7836;
+	text-decoration: underline;
+}
+
+p.footer {
+	font-size: 10px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+a.footer {
+	font-size: 10px;
+	color: #7F7F79;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.image_right {
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+.image_left {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+.image_b7 {
+	border: 7px solid #C8C7BF;
+}
+
+ul {
+	margin-left: 20px;
+	line-height: 125%;
+}
+
+ul.decimal {
+	margin-left: 40px;
+	list-style-type: decimal;
+}
+
+li {
+	list-style-type: inherit;
+	padding-bottom: 5px;
+}
+
+h1 {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 20px;
+	color: #4D4C2F;
+	margin: 0px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px;
+	color: #4D4C2F;
+	margin: 0px;
+}
+
+form {
+	margin: 0px;
+}
+
+.form1 {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.required {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+	color: #ff0000;
+	font-weight: bold;
+}
+
+.formElements {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background: #C6C76C;
+}
+
+input.form_submit {
+	border: 2px solid #B3621E;
+	background: #CD7836;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+div.form_submit {
+	border: 2px solid #B3621E;
+	background: #CD7836;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+
+/* clearing */
+/*******************************************************************************
+ * HACKS : Clearfix
+ *
+ * Clearfix provides a means to for an element to contain all it's floated 
+ * children even if it's not normally tall enough to do so. For more information
+ * on clearfix please see:
+ * http://www.positioniseverything.net/easyclearing.html
+ */
+.clearfix:after
+{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix
+{
+	min-width: 0;		/* trigger hasLayout for IE7 */
+	display: inline-block;
+	/* \*/	display: block;	/* Hide from IE Mac */
+}
+* html .clearfix
+{
+	/* \*/  height: 1%;	/* Hide from IE Mac */ 
+}
+
+.clear {
+clear:both;	
+}
+/* end clearing */
+#content .media td {
+	/* [disabled]padding-bottom: 15px; */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	/* [disabled]padding-left: 30px; */
+	padding: 0 15px 20px 0;
+	vertical-align: bottom;
+}
+.media table tr td h2 a img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#page #main_body #content .media table img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#page #main_body #content .media .rec_nav {
+	text-align: right;
+}
+#page #main_body #content .media .rec_nav td {
+	text-align: right;
+	border: 0px;
+}
+#page #main_body #content .media .rec_nav table {
+	margin-left: auto;
+}

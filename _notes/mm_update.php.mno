@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_twbdRec" value="name:messID;datatype:int,name:date;datatype:date,name:message;datatype:string,name:speaker;datatype:string,name:media;datatype:string" />
+	<infoitem key="UD_updateRec" value="name:MessID;datatype:int,name:Date;datatype:date,name:Message;datatype:string,name:Speaker;datatype:string,name:Media;datatype:string" />
+</info>
